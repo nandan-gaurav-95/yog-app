@@ -23,7 +23,12 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.inner}>
-        <a href="/" className={styles.logo}>MIXRITE</a>
+
+        {/* Logo — two-line brand */}
+        <a href="/" className={styles.logo}>
+          <span className={styles.logoMain}>DOSEWELL</span>
+          <span className={styles.logoSub}>Metering Pump</span>
+        </a>
 
         <button
           className={styles.hamburger}

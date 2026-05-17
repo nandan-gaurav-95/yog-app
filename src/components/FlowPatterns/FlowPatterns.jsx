@@ -25,7 +25,7 @@ export default function FlowPatterns() {
 
         <div style={{ background: '#111520', border: '1px solid #1e2332', padding: '24px 32px' }}>
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: '#8a8070', lineHeight: 1.8 }}>
-            <span style={{ color: '#c8a96e' }}>Note:</span> Mixer length and number of elements is determined by Mixrite engineers based on your specific application, fluid properties, and required flow regime.
+            <span style={{ color: '#c8a96e' }}>Note:</span> Mixer length and number of elements is determined by Dosewell engineers based on your specific application, fluid properties, and required flow regime.
           </p>
         </div>
       </div>

@@ -193,3 +193,29 @@
     padding: 0 20px;
   }
 }
+
+/* ── Logo two-line ── */
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.logoMain {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c8a96e;
+  letter-spacing: 0.1em;
+}
+
+.logoSub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #7a7268;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
