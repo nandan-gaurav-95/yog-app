@@ -28,7 +28,7 @@ export default function ContactForm() {
     const e = {};
     if (!data.from_name.trim())                        e.from_name = 'Full name is required';
     if (!data.phone.trim())                            e.phone     = 'Phone number is required';
-    else if (!/^\+?[\d\s\-]{7,15}$/.test(data.phone)) e.phone     = 'Enter a valid phone number';
+    else if (!/^\+?[\d\s-]{7,15}$/.test(data.phone)) e.phone     = 'Enter a valid phone number';
     if (!data.email.trim())                            e.email     = 'Email is required';
     else if (!/\S+@\S+\.\S+/.test(data.email))        e.email     = 'Enter a valid email';
     if (!data.message.trim())                          e.message   = 'Message is required';
