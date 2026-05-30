@@ -41,12 +41,12 @@ export const PRODUCTS = [
     materials: "AISI 304, AISI 316, Monel, Alloy 20, Hastalloy B, Polypropylene, Hastalloy C, Titanium, GFT",
     application: "Caustic dosing, Boiler Chemical dosing, Polyelectrolyte Dosing, Pressure Testing, Transfer of viscous product like syrup etc.",
     models: [
-      { model: "CF-1", capacity: "0–200",  pressure: "115" },
-      { model: "CF-2", capacity: "0–800",  pressure: "120" },
-      { model: "CF-3", capacity: "0–3800", pressure: "310" },
-      { model: "CF-4", capacity: "0–9800", pressure: "405" },
+      { model: "CD-1", capacity: "0–200",  pressure: "115" },
+      { model: "CD-2", capacity: "0–800",  pressure: "120" },
+      { model: "CD-3", capacity: "0–3800", pressure: "310" },
+      { model: "CD-4", capacity: "0–9800", pressure: "405" },
     ],
-    color: "#0ea5e9",
+    image: '/assets/pumps/plunger_pump.jpeg', color: '#0ea5e9',
   },
   {
     id: "hydraulic",
@@ -63,12 +63,12 @@ export const PRODUCTS = [
     materials: "(PTFE Diaphragm) AISI 304, AISI 316, Monel, Alloy 20, Hastalloy B, Propylene, Hastalloy C, Titanium, GFT, PP, PTFE, PVC",
     application: "Acids, Flammable liquids, Corrosive liquids",
     models: [
-      { model: "CFHD-1", capacity: "0–150",  pressure: "80" },
-      { model: "CFHD-2", capacity: "0–700",  pressure: "100" },
-      { model: "CFHD-3", capacity: "0–3000", pressure: "180" },
-      { model: "CFHD-4", capacity: "0–8600", pressure: "180" },
+      { model: "CDHD-1", capacity: "0–150",  pressure: "80" },
+      { model: "CDHD-2", capacity: "0–700",  pressure: "100" },
+      { model: "CDHD-3", capacity: "0–3000", pressure: "180" },
+      { model: "CDHD-4", capacity: "0–8600", pressure: "180" },
     ],
-    color: "#10b981",
+    image: '/assets/pumps/hydraulic_pump.jpeg', color: '#10b981',
   },
   {
     id: "mechanical",
@@ -86,11 +86,11 @@ export const PRODUCTS = [
     materials: "(PTFE Diaphragm) AISI 304, AISI 316, Monel, Alloy 20, Hastalloy B, Propylene, Hastalloy C, Titanium, GFT, PP, PTFE, PVC",
     application: "Water and Waste treatment Chemicals",
     models: [
-      { model: "CFMD-1", capacity: "0–50",   pressure: "4" },
-      { model: "CFMD-2", capacity: "0–200",  pressure: "4" },
-      { model: "CFMD-3", capacity: "0–1000", pressure: "4" },
+      { model: "CDMD-1", capacity: "0–50",   pressure: "4" },
+      { model: "CDMD-2", capacity: "0–200",  pressure: "4" },
+      { model: "CDMD-3", capacity: "0–1000", pressure: "4" },
     ],
-    color: "#f59e0b",
+    image: '/assets/pumps/mechanical_pump.jpeg', color: '#f59e0b',
   },
   {
     id: "solenoid",
@@ -108,7 +108,7 @@ export const PRODUCTS = [
     materials: "PP, PVC, PTFE, SS316 (Liquid end), GFPP Housing",
     application: "Laboratory Chemicals, Water and Waste Treatment Chemicals",
     models: [],
-    color: "#8b5cf6",
+    image: '/assets/pumps/solenoid_pump.jpeg', color: '#8b5cf6',
   },
   {
     id: "multihead",
@@ -125,7 +125,7 @@ export const PRODUCTS = [
     materials: "As per customer requirement and liquid compatibility",
     application: "Multi-chemical dosing where different chemicals need to be handled simultaneously",
     models: [],
-    color: "#ec4899",
+    image: '/assets/pumps/multihead_pump.jpeg', color: '#ec4899',
   },
 ];
 
@@ -133,7 +133,7 @@ export const PRODUCTS = [
 export const APPLICATION_SECTORS = [
   {
     industry: "Food & Pharmaceutical Industries",
-    color: "#0ea5e9",
+    image: '/assets/pumps/plunger_pump.jpeg', color: '#0ea5e9',
     items: [
       "Tablet Coating", "Cream Filling", "Effluent Treatment",
       "Transfer of viscous slurries like shrikhand", "Ointment", "Honey",
@@ -141,7 +141,7 @@ export const APPLICATION_SECTORS = [
   },
   {
     industry: "Paper Industries",
-    color: "#10b981",
+    image: '/assets/pumps/hydraulic_pump.jpeg', color: '#10b981',
     items: [
       "Melamine and resin additions", "Perfume addition", "Alum dosing",
       "Slimicide injection", "Stock preparation in continuous bleaching",
@@ -149,7 +149,7 @@ export const APPLICATION_SECTORS = [
   },
   {
     industry: "Chemical Industries",
-    color: "#f59e0b",
+    image: '/assets/pumps/mechanical_pump.jpeg', color: '#f59e0b',
     items: [
       "Metering of resins & catalyst", "Pilot plants & laboratories",
       "Water effluent treatment plants", "Acid dosing",
@@ -168,7 +168,7 @@ export const APPLICATION_SECTORS = [
   },
   {
     industry: "Sugar Industries",
-    color: "#ec4899",
+    image: '/assets/pumps/multihead_pump.jpeg', color: '#ec4899',
     items: [
       "Alum dosing", "Flocculent dosing", "Mill sanitation (bioside dosing)",
       "Phosphoric acid dosing", "Hydrostatic testing of boiler tubes & valves",
