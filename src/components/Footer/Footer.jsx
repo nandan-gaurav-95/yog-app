@@ -14,7 +14,7 @@ export default function Footer() {
 
           {/* Brand column */}
           <div>
-            <div className="display-font" style={{ fontSize: 22, color: '#c8a96e', letterSpacing: '0.08em' }}>DOSEWELL</div>
+            <div className="display-font" style={{ fontSize: 22, color: '#c8a96e', letterSpacing: '0.08em' }}>CHEMDOSE</div>
             <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 10, color: '#4a4540', letterSpacing: '0.2em', textTransform: 'uppercase', marginTop: 2, marginBottom: 16 }}>
               Metering Pump
             </div>
@@ -61,7 +61,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div style={{ borderTop: '1px solid #1e2332', padding: '16px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 12 }}>
         <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: '#3a3830' }}>
-          © {new Date().getFullYear()} Dosewell Metering Pump. All Rights Reserved.
+          © {new Date().getFullYear()} Chemdose Metering Pump. All Rights Reserved.
         </span>
         <div style={{ display: 'flex', gap: 16 }}>
           <a href={`tel:+91${PHONE_PRIMARY}`} style={{ ...iconBtn, background: '#c8a96e', color: '#0b0f1a' }}>📞 Call</a>

@@ -200,7 +200,7 @@ export const SKID_COMPONENTS = [
   "Valves & Fittings",
 ];
 
-// ── Features (Why Dosewell) ───────────────────────────────
+// ── Features (Why Chemdose) ───────────────────────────────
 export const FEATURES = [
   { icon: "🛡️", title: "High Degree of Operational Safety" },
   { icon: "🔩", title: "Simple and Compact in Construction" },

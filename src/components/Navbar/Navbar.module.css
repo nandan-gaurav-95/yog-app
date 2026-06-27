@@ -1,6 +1,8 @@
 .navbar {
-  background: #080b14;
-  border-bottom: 1px solid #1e2332;
+  background: rgba(6,8,18,0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(30,35,50,0.6);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -78,7 +80,9 @@
   position: absolute;
   top: calc(100% + 16px);
   left: 0;
-  background: #0f131f;
+  background: rgba(10,14,28,0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid #2a2f40;
   min-width: 250px;
   padding: 12px 0;
@@ -155,8 +159,10 @@
     top: 64px;
     left: 0;
     right: 0;
-    background: #0f131f;
-    border-bottom: 1px solid #1e2332;
+    background: rgba(10,14,28,0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(30,35,50,0.6);
     padding: 12px 0;
   }
 

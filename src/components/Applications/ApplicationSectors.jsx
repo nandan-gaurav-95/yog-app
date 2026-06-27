@@ -10,7 +10,7 @@ export default function ApplicationSectors() {
           Industries We Serve
         </h2>
         <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: '#7a7268', marginBottom: 48, maxWidth: 560, lineHeight: 1.8 }}>
-          Dosewell Metering Pumps are widely adopted across process industries for precise chemical dosing requirements.
+          Chemdose Metering Pumps are widely adopted across process industries for precise chemical dosing requirements.
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
