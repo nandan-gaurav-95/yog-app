@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './Navbar.module.css';
 import NavItem from './NavItem';
+import DosewellLogo from '../../assets/DosewellLogo';
 import { NAV_PRODUCTS, NAV_WHITEPAGES } from '../../data/constants';
 
 const PRODUCT_SECTIONS = [
@@ -24,12 +25,12 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.inner}>
 
-        {/* Logo — two-line brand */}
-        <a href="/" className={styles.logo}>
-          <span className={styles.logoMain}>DOSEWELL</span>
-          <span className={styles.logoSub}>Metering Pump</span>
+        {/* ── Logo ── */}
+        <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+          <DosewellLogo height={52} />
         </a>
 
+        {/* ── Mobile hamburger ── */}
         <button
           className={styles.hamburger}
           onClick={() => setMobileOpen(p => !p)}
@@ -38,6 +39,7 @@ export default function Navbar() {
           <span /><span /><span />
         </button>
 
+        {/* ── Nav links ── */}
         <ul className={[styles.navLinks, mobileOpen ? styles.mobileOpen : ''].join(' ')}>
           {NAV_CONFIG.map(item => (
             <NavItem
