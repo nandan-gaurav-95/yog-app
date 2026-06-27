@@ -15,7 +15,7 @@ export default function AnimatedBackground() {
     // ─────────────────────────────────────────
     const NODE_COUNT = 28;
     const nodes = [];
-    const connections = [];
+    // const connections = [];
 
     // Create nodes
     for (let i = 0; i < NODE_COUNT; i++) {
