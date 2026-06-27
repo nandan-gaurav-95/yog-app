@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './Navbar.module.css';
 import NavItem from './NavItem';
-import DosewellLogo from '../../assets/DosewellLogo';
+import ChemdoseLogo from '../../assets/ChemdoseLogo';
 import { NAV_PRODUCTS, NAV_WHITEPAGES } from '../../data/constants';
 
 const PRODUCT_SECTIONS = [
@@ -27,7 +27,7 @@ export default function Navbar() {
 
         {/* ── Logo ── */}
         <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-          <DosewellLogo height={52} />
+          <ChemdoseLogo height={52} darkBg={true} />
         </a>
 
         {/* ── Mobile hamburger ── */}
