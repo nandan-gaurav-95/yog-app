@@ -1,6 +1,6 @@
 import { APPLICATIONS } from '../../data/constants';
 
-const BG = ['#1a1f2e', '#161a28', '#131724'];
+const BG = ['#201c18', '#1b1815', '#161412'];
 
 export default function Applications() {
   return (
@@ -17,7 +17,7 @@ export default function Applications() {
           {APPLICATIONS.map((app, i) => (
             <div key={app} style={{
               background: BG[i % 3],
-              border: '1px solid #2a2f40',
+              border: '1px solid #3a352e',
               padding: '12px 20px',
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 14,

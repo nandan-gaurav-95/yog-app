@@ -33,8 +33,8 @@
 
 /* Input base */
 .input {
-  background: #0f131f;
-  border: 1px solid #2a2f40;
+  background: #181614;
+  border: 1px solid #3a352e;
   color: #e8e4d9;
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
@@ -43,7 +43,7 @@
   transition: border-color 0.2s, background 0.2s;
   width: 100%;
   border-radius: 0;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 .input::placeholder {
@@ -52,7 +52,7 @@
 
 .input:focus {
   border-color: #c8a96e;
-  background: #111520;
+  background: #1d1b18;
 }
 
 .inputError {
@@ -84,7 +84,7 @@
 /* Submit button */
 .submitBtn {
   background: #c8a96e;
-  color: #0b0f1a;
+  color: #0f0e0c;
   border: none;
   padding: 14px 32px;
   font-family: 'DM Sans', sans-serif;
@@ -118,14 +118,16 @@
   display: inline-block;
   width: 12px;
   height: 12px;
-  border: 2px solid #0b0f1a;
+  border: 2px solid #0f0e0c;
   border-top-color: transparent;
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Success state */
@@ -180,7 +182,7 @@
 
 .resetBtn:hover {
   background: #c8a96e;
-  color: #0b0f1a;
+  color: #0f0e0c;
 }
 
 /* Responsive */

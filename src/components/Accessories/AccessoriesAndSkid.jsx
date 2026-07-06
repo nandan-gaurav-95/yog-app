@@ -14,7 +14,7 @@ export default function AccessoriesAndSkid() {
           </h2>
 
           {/* Real accessories image */}
-          <div style={{ background: '#0f131f', border: '1px solid #1e2332', padding: 20, marginBottom: 24 }}>
+          <div style={{ background: '#181614', border: '1px solid #2e2a24', padding: 20, marginBottom: 24 }}>
             <img
               src="/assets/pumps/accessories.jpeg"
               alt="Pump Accessories"
@@ -26,7 +26,7 @@ export default function AccessoriesAndSkid() {
             {ACCESSORIES.map((item, i) => (
               <div key={item} style={{
                 display: 'flex', alignItems: 'center', gap: 10,
-                background: '#0f131f', border: '1px solid #1e2332',
+                background: '#181614', border: '1px solid #2e2a24',
                 padding: '12px 18px',
               }}>
                 <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 16, color: '#c8a96e44', fontWeight: 700 }}>
@@ -48,7 +48,7 @@ export default function AccessoriesAndSkid() {
             <h2 className="display-font" style={{ fontSize: 32, fontWeight: 400, marginBottom: 20 }}>
               Complete Skid Mounted Chemical Dosing System
             </h2>
-            <div style={{ background: '#0f131f', border: '1px solid #c8a96e22', overflow: 'hidden' }}>
+            <div style={{ background: '#181614', border: '1px solid #c8a96e22', overflow: 'hidden' }}>
               <img
                 src="/assets/pumps/skid_system.jpeg"
                 alt="Skid Mounted Chemical Dosing System"

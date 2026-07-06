@@ -9,7 +9,7 @@ const WHATSAPP_URL    = `https://wa.me/91${PHONE_PRIMARY}?text=Hello%2C%20I%20am
 
 export default function Contact() {
   return (
-    <section id="contact" style={{ background: '#0d1120', borderTop: '1px solid #1e2332', padding: '80px 0' }}>
+    <section id="contact" style={{ background: '#141311', borderTop: '1px solid #2e2a24', padding: '80px 0' }}>
       <div className="container">
 
         {/* Header */}
@@ -73,7 +73,7 @@ export default function Contact() {
                 href={`tel:+91${PHONE_PRIMARY}`}
                 style={{
                   display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10,
-                  background: '#c8a96e', color: '#0b0f1a',
+                  background: '#c8a96e', color: '#0f0e0c',
                   padding: '13px 20px', textDecoration: 'none',
                   fontFamily: "'DM Sans', sans-serif", fontSize: 14, fontWeight: 500,
                   letterSpacing: '0.06em', transition: 'background 0.2s',
@@ -115,7 +115,7 @@ export default function Contact() {
                   fontFamily: "'DM Sans', sans-serif", fontSize: 14,
                   letterSpacing: '0.06em', transition: 'all 0.2s',
                 }}
-                onMouseOver={e => { e.currentTarget.style.background = '#c8a96e'; e.currentTarget.style.color = '#0b0f1a'; }}
+                onMouseOver={e => { e.currentTarget.style.background = '#c8a96e'; e.currentTarget.style.color = '#0f0e0c'; }}
                 onMouseOut={e  => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#c8a96e'; }}
               >
                 📍 Get Directions
@@ -131,7 +131,7 @@ export default function Contact() {
 
 function ContactCard({ icon, label, href, linkText, children }) {
   return (
-    <div style={{ display: 'flex', gap: 14, padding: '16px 18px', background: '#111520', border: '1px solid #1e2332' }}>
+    <div style={{ display: 'flex', gap: 14, padding: '16px 18px', background: '#1d1b18', border: '1px solid #2e2a24' }}>
       <span style={{ fontSize: 20, marginTop: 2 }}>{icon}</span>
       <div>
         <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#c8a96e', marginBottom: 4 }}>

@@ -10,9 +10,9 @@ const STATS = [
 export default function Hero() {
   return (
     <section style={{
-      background: 'linear-gradient(135deg, rgba(8,11,20,0.85) 0%, rgba(13,20,37,0.80) 50%, rgba(8,11,20,0.85) 100%)',
+      background: 'linear-gradient(135deg, rgba(15,14,13,0.85) 0%, rgba(26,24,22,0.80) 50%, rgba(15,14,13,0.85) 100%)',
       padding: '100px 0 80px',
-      borderBottom: '1px solid rgba(30,35,50,0.6)',
+      borderBottom: '1px solid rgba(53,49,43,0.6)',
       position: 'relative',
       overflow: 'hidden',
     }}>
@@ -77,13 +77,13 @@ export default function Hero() {
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
-          borderTop: '1px solid rgba(30,35,50,0.7)',
+          borderTop: '1px solid rgba(53,49,43,0.7)',
           paddingTop: 32,
         }}>
           {STATS.map(({ value, unit, label }, i) => (
             <div key={label} style={{
               textAlign: 'center',
-              borderRight: i < 3 ? '1px solid rgba(30,35,50,0.7)' : 'none',
+              borderRight: i < 3 ? '1px solid rgba(53,49,43,0.7)' : 'none',
               padding: '0 16px',
             }}>
               <div className="display-font" style={{ fontSize: 36, fontWeight: 600, color: '#c8a96e', lineHeight: 1 }}>

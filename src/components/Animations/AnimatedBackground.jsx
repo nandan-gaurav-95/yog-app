@@ -190,8 +190,8 @@ export default function AnimatedBackground() {
         W / 2, H / 2, H * 0.3,
         W / 2, H / 2, H * 0.85
       );
-      vignette.addColorStop(0, 'rgba(8,11,26,0)');
-      vignette.addColorStop(1, 'rgba(8,11,26,0.45)');
+      vignette.addColorStop(0, 'rgba(15,14,12,0)');
+      vignette.addColorStop(1, 'rgba(15,14,12,0.45)');
       ctx.fillStyle = vignette;
       ctx.fillRect(0, 0, W, H);
 

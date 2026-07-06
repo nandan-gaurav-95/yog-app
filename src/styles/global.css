@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap');
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,12 +10,14 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background: #080b14;
+  background: #0f0e0c;
   color: #e8e4d9;
 }
 
 /* ── Typography ── */
-.display-font { font-family: 'Cormorant Garamond', serif; }
+.display-font {
+  font-family: 'Cormorant Garamond', serif;
+}
 
 /* ── Layout ── */
 .container {
@@ -25,19 +29,28 @@ body {
 /* ── Sections — semi-transparent so canvas shows through ── */
 .section {
   padding: 80px 0;
-  background: rgba(8, 11, 26, 0.75);
+  background: rgba(15, 14, 12, 0.75);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
 
 .section-alt {
-  background: rgba(14, 18, 32, 0.80);
+  background: rgba(24, 22, 19, 0.80);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
 
-.grid-2 { display: grid; grid-template-columns: 1fr 1fr;          gap: 24px; }
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr);   gap: 20px; }
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
 /* ── UI atoms ── */
 .gold-line {
@@ -49,9 +62,9 @@ body {
 
 .tag {
   display: inline-block;
-  background: rgba(200,169,110,0.12);
+  background: rgba(200, 169, 110, 0.12);
   color: #c8a96e;
-  border: 1px solid rgba(200,169,110,0.3);
+  border: 1px solid rgba(200, 169, 110, 0.3);
   padding: 4px 12px;
   font-size: 11px;
   letter-spacing: 0.1em;
@@ -61,19 +74,22 @@ body {
 }
 
 .card {
-  background: rgba(21, 26, 39, 0.85);
-  border: 1px solid rgba(42, 47, 64, 0.9);
+  background: rgba(32, 29, 25, 0.85);
+  border: 1px solid rgba(62, 57, 50, 0.9);
   padding: 28px;
   transition: border-color 0.2s;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-.card:hover { border-color: rgba(200,169,110,0.4); }
+
+.card:hover {
+  border-color: rgba(200, 169, 110, 0.4);
+}
 
 .pill {
   display: inline-block;
-  background: rgba(26, 31, 46, 0.85);
-  border: 1px solid #2a2f40;
+  background: rgba(40, 36, 31, 0.85);
+  border: 1px solid #3f392f;
   padding: 6px 14px;
   font-size: 13px;
   font-family: 'DM Sans', sans-serif;
@@ -83,7 +99,7 @@ body {
 
 .btn-primary {
   background: #c8a96e;
-  color: #0b0f1a;
+  color: #0f0e0c;
   border: none;
   padding: 12px 28px;
   font-family: 'DM Sans', sans-serif;
@@ -93,7 +109,11 @@ body {
   cursor: pointer;
   transition: background 0.2s, transform 0.1s;
 }
-.btn-primary:hover { background: #d4b87a; transform: translateY(-1px); }
+
+.btn-primary:hover {
+  background: #d4b87a;
+  transform: translateY(-1px);
+}
 
 .btn-outline {
   background: transparent;
@@ -106,11 +126,25 @@ body {
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-outline:hover { background: #c8a96e; color: #0b0f1a; }
+
+.btn-outline:hover {
+  background: #c8a96e;
+  color: #0f0e0c;
+}
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
-  .grid-2, .grid-3 { grid-template-columns: 1fr; }
-  .container        { padding: 0 20px; }
-  .hero-flex        { flex-direction: column; }
+
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .hero-flex {
+    flex-direction: column;
+  }
 }

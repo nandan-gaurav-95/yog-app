@@ -25,8 +25,8 @@ export default function Products() {
               onClick={() => setActiveId(p.id)}
               style={{
                 background:    activeId === p.id ? p.color : 'transparent',
-                color:         activeId === p.id ? '#0b0f1a' : '#8a8070',
-                border:        `1px solid ${activeId === p.id ? p.color : '#2a2f40'}`,
+                color:         activeId === p.id ? '#0f0e0c' : '#8a8070',
+                border:        `1px solid ${activeId === p.id ? p.color : '#3a352e'}`,
                 padding:       '8px 18px',
                 fontFamily:    "'DM Sans', sans-serif",
                 fontSize:      13,
@@ -76,7 +76,7 @@ export default function Products() {
             </div>
 
             {/* Materials */}
-            <div style={{ background: '#0f131f', border: '1px solid #1e2332', padding: '14px 18px', marginBottom: 12 }}>
+            <div style={{ background: '#181614', border: '1px solid #2e2a24', padding: '14px 18px', marginBottom: 12 }}>
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, color: '#5a5650', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
                 Liquid Contact Materials (Wetted Parts):
               </span>
@@ -86,7 +86,7 @@ export default function Products() {
             </div>
 
             {/* Application */}
-            <div style={{ background: '#0f131f', border: `1px solid ${active.color}33`, padding: '14px 18px' }}>
+            <div style={{ background: '#181614', border: `1px solid ${active.color}33`, padding: '14px 18px' }}>
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, color: active.color, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
                 Application:
               </span>
@@ -100,7 +100,7 @@ export default function Products() {
           <div>
             {/* Real pump photo */}
             <div style={{
-              background: '#0f131f',
+              background: '#181614',
               border: `1px solid ${active.color}44`,
               marginBottom: 24,
               overflow: 'hidden',
@@ -133,7 +133,7 @@ export default function Products() {
                 </p>
                 <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: "'DM Sans', sans-serif" }}>
                   <thead>
-                    <tr style={{ background: '#0f131f' }}>
+                    <tr style={{ background: '#181614' }}>
                       {['Sr.', 'Model', 'Capacity (LPH)', 'Pressure (kg/cm²)'].map(h => (
                         <th key={h} style={{ padding: '10px 12px', fontSize: 11, color: '#5a5650', letterSpacing: '0.04em', textTransform: 'uppercase', borderBottom: `2px solid ${active.color}44`, textAlign: 'left', fontWeight: 500 }}>
                           {h}
@@ -143,24 +143,24 @@ export default function Products() {
                   </thead>
                   <tbody>
                     {active.models.map(({ model, capacity, pressure }, i) => (
-                      <tr key={model} style={{ background: i % 2 === 0 ? '#111520' : '#0f131f' }}>
-                        <td style={{ padding: '10px 12px', fontSize: 12, color: '#5a5650', borderBottom: '1px solid #1e2332' }}>{i + 1}</td>
-                        <td style={{ padding: '10px 12px', fontSize: 13, color: active.color, fontWeight: 500, borderBottom: '1px solid #1e2332' }}>{model}</td>
-                        <td style={{ padding: '10px 12px', fontSize: 13, color: '#b8b0a0', borderBottom: '1px solid #1e2332' }}>{capacity}</td>
-                        <td style={{ padding: '10px 12px', fontSize: 13, color: '#b8b0a0', borderBottom: '1px solid #1e2332' }}>{pressure}</td>
+                      <tr key={model} style={{ background: i % 2 === 0 ? '#1d1b18' : '#181614' }}>
+                        <td style={{ padding: '10px 12px', fontSize: 12, color: '#5a5650', borderBottom: '1px solid #2e2a24' }}>{i + 1}</td>
+                        <td style={{ padding: '10px 12px', fontSize: 13, color: active.color, fontWeight: 500, borderBottom: '1px solid #2e2a24' }}>{model}</td>
+                        <td style={{ padding: '10px 12px', fontSize: 13, color: '#b8b0a0', borderBottom: '1px solid #2e2a24' }}>{capacity}</td>
+                        <td style={{ padding: '10px 12px', fontSize: 13, color: '#b8b0a0', borderBottom: '1px solid #2e2a24' }}>{pressure}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
             ) : (
-              <div style={{ background: '#0f131f', border: `1px solid ${active.color}33`, padding: 24, textAlign: 'center' }}>
+              <div style={{ background: '#181614', border: `1px solid ${active.color}33`, padding: 24, textAlign: 'center' }}>
                 <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: '#7a7268', lineHeight: 1.8, marginBottom: 16 }}>
                   Custom configurations available as per customer requirement.
                 </p>
                 <a href="#contact" style={{
                   display: 'inline-block',
-                  background: active.color, color: '#0b0f1a',
+                  background: active.color, color: '#0f0e0c',
                   padding: '10px 24px', textDecoration: 'none',
                   fontFamily: "'DM Sans', sans-serif", fontSize: 13, fontWeight: 500,
                 }}>

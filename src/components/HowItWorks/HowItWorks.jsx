@@ -16,20 +16,20 @@ function FlowIllustration() {
 
       {/* Outer rings */}
       {[0, 1, 2, 3].map(i => (
-        <circle key={i} cx={30 + i * 80} cy={60} r={28} fill="none" stroke="#2a3040" strokeWidth="1.5" />
+        <circle key={i} cx={30 + i * 80} cy={60} r={28} fill="none" stroke="#3a352e" strokeWidth="1.5" />
       ))}
 
       {/* Stage 1 — raw input */}
-      <circle cx={30}  cy={60} r={24} fill="#1a2a3a" />
+      <circle cx={30}  cy={60} r={24} fill="#211f1d" />
       <circle cx={30}  cy={60} r={14} fill="#2563eb" opacity="0.7" />
       <circle cx={30}  cy={60} r={6}  fill="#60a5fa" />
 
       {/* Stage 2 — division */}
-      <circle cx={110} cy={60} r={24} fill="#1a2a3a" />
+      <circle cx={110} cy={60} r={24} fill="#211f1d" />
       <path d="M86,50 L120,50 M86,60 L120,60 M86,70 L120,70" stroke="#60a5fa" strokeWidth="3" opacity="0.6" />
 
       {/* Stage 3 — radial mix */}
-      <circle cx={190} cy={60} r={24} fill="#1a2a3a" />
+      <circle cx={190} cy={60} r={24} fill="#211f1d" />
       {[0, 1, 2, 3, 4, 5].map(a => (
         <line
           key={a}

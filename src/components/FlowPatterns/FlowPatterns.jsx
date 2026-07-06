@@ -23,7 +23,7 @@ export default function FlowPatterns() {
           ))}
         </div>
 
-        <div style={{ background: '#111520', border: '1px solid #1e2332', padding: '24px 32px' }}>
+        <div style={{ background: '#1d1b18', border: '1px solid #2e2a24', padding: '24px 32px' }}>
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: '#8a8070', lineHeight: 1.8 }}>
             <span style={{ color: '#c8a96e' }}>Note:</span> Mixer length and number of elements is determined by Chemdose engineers based on your specific application, fluid properties, and required flow regime.
           </p>

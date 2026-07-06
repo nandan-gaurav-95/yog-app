@@ -6,7 +6,7 @@ const WHATSAPP_URL    = `https://wa.me/918600001780?text=Hello%2C%20I%20am%20int
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#080b14', borderTop: '1px solid #1e2332' }}>
+    <footer style={{ background: '#0f0e0c', borderTop: '1px solid #2e2a24' }}>
 
       {/* Main footer content */}
       <div className="container" style={{ padding: '48px 40px 32px' }}>
@@ -59,14 +59,14 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div style={{ borderTop: '1px solid #1e2332', padding: '16px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 12 }}>
+      <div style={{ borderTop: '1px solid #2e2a24', padding: '16px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 12 }}>
         <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: '#3a3830' }}>
           © {new Date().getFullYear()} Chemdose Metering Pump. All Rights Reserved.
         </span>
         <div style={{ display: 'flex', gap: 16 }}>
-          <a href={`tel:+91${PHONE_PRIMARY}`} style={{ ...iconBtn, background: '#c8a96e', color: '#0b0f1a' }}>📞 Call</a>
+          <a href={`tel:+91${PHONE_PRIMARY}`} style={{ ...iconBtn, background: '#c8a96e', color: '#0f0e0c' }}>📞 Call</a>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" style={{ ...iconBtn, background: '#25D366', color: '#fff' }}>💬 WhatsApp</a>
-          <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" style={{ ...iconBtn, background: '#1a1f2e', color: '#c8a96e', border: '1px solid #c8a96e33' }}>📍 Maps</a>
+          <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" style={{ ...iconBtn, background: '#211f1d', color: '#c8a96e', border: '1px solid #c8a96e33' }}>📍 Maps</a>
         </div>
       </div>
 

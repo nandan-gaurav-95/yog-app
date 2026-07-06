@@ -13,7 +13,7 @@ export default function Metallurgy() {
             <h2 className="display-font" style={{ fontSize: 36, fontWeight: 400, marginBottom: 24 }}>Connection Types</h2>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
               {END_CONNECTIONS.map(e => (
-                <div key={e} style={{ background: '#151a27', border: '1px solid #c8a96e44', padding: '10px 20px', fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: '#c8a96e', letterSpacing: '0.04em' }}>
+                <div key={e} style={{ background: '#1d1b18', border: '1px solid #c8a96e44', padding: '10px 20px', fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: '#c8a96e', letterSpacing: '0.04em' }}>
                   {e}
                 </div>
               ))}

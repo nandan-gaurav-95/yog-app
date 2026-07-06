@@ -16,7 +16,7 @@ export default function ApplicationSectors() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
           {APPLICATION_SECTORS.map(({ industry, color, items }) => (
             <div key={industry} style={{
-              background: '#111520',
+              background: '#1d1b18',
               borderLeft: `3px solid ${color}`,
               padding: '20px 28px',
               transition: 'background 0.2s',
@@ -35,7 +35,7 @@ export default function ApplicationSectors() {
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                 {items.map(item => (
                   <span key={item} style={{
-                    background: '#0f131f',
+                    background: '#181614',
                     border: `1px solid ${color}22`,
                     color: '#b8b0a0',
                     fontFamily: "'DM Sans', sans-serif",

@@ -1,5 +1,5 @@
 export default function ChemdoseLogo({ height = 48, darkBg = false }) {
-  const bg        = darkBg ? '#080b14' : '#ffffff';
+  const bg        = darkBg ? '#0f0e0c' : '#ffffff';
   const subtitleC = darkBg ? '#cccccc' : '#3a3030';
 
   return (
